@@ -1,0 +1,54 @@
+/* BANNER */
+.bannerFoto{
+    width: 100vw;
+}
+figure{
+    position: relative;
+    font-size: 500px;
+    color: white;
+}
+figcaption{
+    position: absolute;
+    bottom: 00px;
+    left: 20px;
+}
+
+/* NAV */
+nav{
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.navegadorPrincipal{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+/* MAIN */
+main{
+    height: 500px;
+}
+
+/* FOOTER */
+/* Section de fotos */
+.fotos{
+    display: flex;
+}
+.fotoizq, .fotoderecha{
+    width: 50vw;
+}
+.fotoderecha{
+    background-image: url(/img/desktop/escalera.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: #1B6966;
+    padding-bottom: 40px;
+}
+
